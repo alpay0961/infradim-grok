@@ -1,0 +1,18 @@
+# robots.txt für Infradim Nürnberg
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+
+# Sitemap
+Sitemap: https://infradim.de/sitemap.xml
+
+# Crawl-delay (optional)
+Crawl-delay: 10
+
+# Spezielle Bots
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /

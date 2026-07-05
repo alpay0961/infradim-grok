@@ -1,0 +1,8 @@
+/*
+ * Self-hosted font loader – Inter + Poppins
+ * Place the actual .woff2 font files in assets/vendor/fonts/
+ * and update the src paths below, or replace with a CDN import.
+ *
+ * Quick start (no local files needed):
+ */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap');
