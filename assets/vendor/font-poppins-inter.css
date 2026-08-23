@@ -1,8 +1,39 @@
-/*
- * Self-hosted font loader – Inter + Poppins
- * Place the actual .woff2 font files in assets/vendor/fonts/
- * and update the src paths below, or replace with a CDN import.
- *
- * Quick start (no local files needed):
- */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap');
+@font-face {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 300 700;
+	font-display: swap;
+	src: url('./fonts/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url('./fonts/pxiEyp8kv8JHgFVrJJfecg.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 500;
+	font-display: swap;
+	src: url('./fonts/pxiByp8kv8JHgFVrLGT9Z1xlFQ.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 600;
+	font-display: swap;
+	src: url('./fonts/pxiByp8kv8JHgFVrLEj6Z1xlFQ.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: url('./fonts/pxiByp8kv8JHgFVrLCz7Z1xlFQ.woff2') format('woff2');
+}
